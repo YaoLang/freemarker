@@ -27,6 +27,7 @@ public class HelloFreeMarker {
 		Template t = cfg.getTemplate("test.html");
 		t.process(root, new OutputStreamWriter(System.out));
 		
+		//HttpCopyWrapper newrequest = new HttpCopyWrapper(request); 
 		//String pagename=("/goods-"+goodsid+".html");
 		//newrequest.setServletPath(pagename);
 		//ThreadContextHolder.setHttpRequest(newrequest);
